@@ -1,0 +1,238 @@
+*{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+}
+body{
+ 	background: beige;
+ 	background-size: cover;
+ 	background-position: center;
+ 	box-sizing: border-box;
+ 	font-family: sans-serif;  
+}
+/*haeder*/
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: black;
+}
+.logo{
+	height: 70px;
+	margin: 10px;
+	margin-left: 50px;
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	text-align: center;
+}
+.menu ul{
+	display: inline-flex; 
+	list-style: none;
+}
+.menu ul li{
+	width: 100px;
+	padding: 20px;
+	margin-top: 9px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white; 
+	text-align: center;
+	font-size: 20px;
+}
+input{
+	height: 20px;
+	margin: 20px 20px;
+	padding: 20px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	font-family: Bradley Hand ITC;
+	background-color: #f2f2f2;
+}
+.sub-menu{
+	display: none;
+}
+.menu ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background: rgb(0,00,0);
+	margin-top: 15px;
+	margin-left: -15px;
+} 
+.menu ul li:hover .sub-menu ul{
+	display: block;
+	margin: 10px;
+}
+.menu ul li:hover .sub-menu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu ul li:hover .sub-menu ul li:last-child{
+	border-bottom: none;
+}
+.menu ul li:hover .sub-menu ul li a:hover{
+	color: #fff;
+}
+/* fin haeder*/
+/*debut du coprs*/
+.header{
+	font-size: 48px;
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	color: black;
+	background-color: red;
+	margin-right: 300px;
+	margin-left: 500px;
+}
+.header-1{
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	text-align: center; 
+	margin-left: 300px; 
+	margin-right: 500px;
+	margin-top: 30px;
+}
+.header-2{
+	font-size: 20px;
+	color: black;
+	margin-left: 10px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.header-2 h2{
+	margin-left: 40px;
+	font-size: 30px;
+}
+.header, .header-1, .header-2{
+	font-family: Bradley Hand ITC;
+}
+.cadeau{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: Bradley Hand ITC;
+	font-size: 20px;
+}
+.cadeau_de_la_maison{
+	text-align: center;
+	border-width: 2px;
+	border-style: solid;
+}
+/* debut de section*/
+.main{
+	margin: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.images{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.images .image{
+	margin-right: 6px;
+}
+.images .image img{
+	width: 100%;
+	margin: 10px;
+}
+.image_header{
+	margin: 10px;
+}
+.image_body{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.title{
+	text-align: center;	 
+}
+.price{
+	margin-left: 20px;
+}
+.voir_plus{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+/* fin de section*/
+/*fin du coprs*/
+/*footer*/
+footer{
+	background: black;
+}
+.pied_de_page{
+	font-family: Bradley Hand ITC;
+	font-size: 20px;
+	margin-left: 15px;
+	color: red;
+	padding-top: 20px;
+}
+.info{
+	margin-bottom: 19px;
+	margin-left: 10px;
+	color: white;
+	font-size: 20px;
+	font-family: Bradley Hand ITC;
+}
+.info_2{
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.info_2 ul{
+	display: inline-flex;
+	list-style: none;
+	font-size: 20px;
+	margin: 10px 10px;
+}
+.info_2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.info_3 ul{
+	display: flex;
+	justify-content: center;
+	list-style: none; 
+	margin: 30px;
+	font-size: 20px;
+}
+.info_3 ul li a{
+	text-decoration: none;
+	color: #fff;
+	margin-right: 80px;
+}
+.icon{
+	height: 30px;
+	margin-top: 15px;
+}
+.mini_logo a{
+	text-decoration: none;
+}
+#pieds div{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 0px; 	
+}
+.copyright{
+	text-align: center;
+	font-size: 18px;
+	color: #f6f6f6;
+	margin-top: 10px;
+}
+/* fin footer*/
